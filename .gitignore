@@ -12,3 +12,11 @@ yarn-error.log*
 .DS_Store
 *.log
 *.swp
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+*.tfplan
